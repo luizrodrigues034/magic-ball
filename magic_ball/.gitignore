@@ -43,3 +43,54 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.buildlog/
+.pub-cache/
+generated_plugin_registrant.dart
+
+# Diretórios de build
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+macos/Flutter/ephemeral/
+macos/Pods/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+web/.dart_tool/
+web/build/
+
+# Arquivos IDEs
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Arquivos de sistema
+*.lock
+*.log
+
+# Certificados/chaves (NÃO subir pro Git!)
+*.jks
+*.p12
+*.keystore
+
+# Configurações específicas de simulador/emulador
+ios/Runner/GeneratedPluginRegistrant.*
+android/.gradle/
+android/local.properties
+
+# Web
+build/web/
+
+# Outros
+.env
+.env.*
